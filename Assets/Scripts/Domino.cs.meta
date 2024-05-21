@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 2d95864b2d78f404bab4b37ffab2b922
+guid: bf3c0fa442a035f4193b154b3955fc2f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - dominoPrefab: {fileID: 1951050869187663915, guid: 79cac1c02ea384247b50da944dc4074b,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
