@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Domino
+  - VCamera
   layers:
   - Default
   - TransparentFX

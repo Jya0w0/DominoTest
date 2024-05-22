@@ -18,6 +18,11 @@ public class Domino : MonoBehaviour
     private bool isClickZ = false;
     private bool isSpawn = false;
 
+    private void Awake()
+    {
+        CameraControl.Instance.SetTarget(transform);
+    }
+
     private void Start()
     {
         rotation = transform.eulerAngles;
