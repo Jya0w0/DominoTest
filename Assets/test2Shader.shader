@@ -4,8 +4,6 @@ Shader "Custom/test2Shader"
     {
         _TopColor ("Top Color", Color) = (1, 0, 0, 1)
         _BottomColor ("Bottom Color", Color) = (0, 0, 1, 1)
-        _MinHeight ("Minimum Height", Float) = 0.0
-        _MaxHeight ("Maximum Height", Float) = 1.0
     }
     SubShader
     {
@@ -51,7 +49,7 @@ Shader "Custom/test2Shader"
             }
             ENDCG
         }
-  
+   
     }
     FallBack "Diffuse"
 }
